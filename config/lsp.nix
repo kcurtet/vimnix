@@ -10,10 +10,12 @@
       lua_ls.enable = true;
 
       rust_analyzer.enable = true;
-			rust_analyzer.installCargo = false;
-			rust_analyzer.installRustc = false;
+      rust_analyzer.installCargo = false;
+      rust_analyzer.installRustc = false;
 
       denols.enable = true;
+
+      intelephense.enable = true;
     };
 
     none-ls = {
