@@ -30,19 +30,6 @@
 
   globals.mapleader = " ";
 
-  keymaps = [
-    {
-      key = "<leader>ff";
-      action = "<cmd>Telescope find_files<CR>";
-      options.desc = "find files";
-    }
-    {
-      key = "<leader>fd";
-      action = "<cmd>Telescope find_files cwd=~/.dotfiles<CR>";
-      options.desc = "find files";
-    }
-  ];
-
   plugins.lastplace.enable = true;
 
   plugins.lualine.enable = true;
